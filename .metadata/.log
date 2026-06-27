@@ -1,0 +1,37 @@
+!SESSION 2026-06-27 14:24:38.350 -----------------------------------------------
+eclipse.buildId=Version 2.1.1
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-06-27 14:25:05.619
+!MESSAGE Log4j2 initialized with config file C:\Users\48501\Desktop\Education\_Studia\6 SEMESTR\SKM\Project\SKM_Krisolo\SKM_2nd_try\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-06-27 14:25:11.752
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-06-27 14:25:27.822
+!MESSAGE Executed PowerShell command powershell.exe -Command "Get-CimInstance -ClassName Win32_SerialPort | Select-Object -ExpandProperty DeviceID":
+COM5
+COM6
+
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-06-27 14:25:27.823
+!MESSAGE port: COM5
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-06-27 14:25:27.824
+!MESSAGE port: COM6
+!SESSION 2026-06-27 14:25:59.283 -----------------------------------------------
+eclipse.buildId=Version 2.1.1
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
+Framework arguments:  C:\Users\48501\Desktop\Education\_Studia\6 SEMESTR\SKM\Project\SKM_Krisolo\SKM_2nd_try\.cproject
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Users\48501\Desktop\Education\_Studia\6 SEMESTR\SKM\Project\SKM_Krisolo\SKM_2nd_try\.cproject
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-06-27 14:26:08.243
+!MESSAGE Log4j2 initialized with config file C:\Users\48501\Desktop\Education\_Studia\6 SEMESTR\SKM\Project\SKM_Krisolo\SKM_2nd_try\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-06-27 14:26:12.773
+!MESSAGE Started RMI Server, listening on port 41337
