@@ -1,8 +1,8 @@
-# Stacja pogodowa - STM32F429ZI
+# Prosta stacja pogodowa na mikrokontrolerze STM32F429ZI
 
+<p style="text-align: justify;">
 Stacja pogodowa na mikrokontrolerze STM32F429ZI (NUCLEO-F429ZI), mierząca temperaturę i ciśnienie atmosferyczne czujnikiem **BMP280**, wyświetlająca wyniki na **LCD 20x4** (przez ekspander I2C) i udostępniająca konfigurację/diagnostykę przez interaktywną konsolę **CLI** dostępną przez UART.
-
-Projekt zaliczeniowy z przedmiotu *Standardy Komunikacji Międzyukładowej w modułowych systemach wbudowanych*.
+</p>
 
 ## Funkcjonalności
 
@@ -23,13 +23,13 @@ Projekt zaliczeniowy z przedmiotu *Standardy Komunikacji Międzyukładowej w mod
 | Wyświetlacz | LCD 20x4 z ekspanderem I2C, I2C2 |
 | Komunikacja z PC | UART3 przez ST-LINK VCP (USB) |
 
-Schemat podłączenia interfejsów oraz pełny opis architektury znajdują się w [`specyfikacja_projektu.md`](specyfikacja_projektu.md).
+Schemat podłączenia interfejsów oraz pełny opis architektury znajdują się w [`specyfikacja_projektu.md`](specyfikacja_projektu.md) (plik dostępny wyłącznie dla prowadzącego zajęcia).
 
 ## Wymagania do budowy projektu
 
-- [STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html)
-- Płytka NUCLEO-F429ZI podłączona przez USB (ST-LINK)
-- Terminal UART (wbudowany terminal CubeIDE, PuTTY, Tera Term itp.) na porcie ST-LINK VCP, **115200 8N1** (lub zgodnie z konfiguracją USART3 w `.ioc`)
+- [STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html).
+- Płytka NUCLEO-F429ZI podłączona przez USB (ST-LINK).
+- Terminal UART (np. wbudowany terminal CubeIDE) na porcie ST-LINK VCP, **115200 8N1** (lub zgodnie z konfiguracją USART3 w `.ioc`).
 
 ## Budowanie i wgrywanie
 
@@ -72,9 +72,9 @@ Drivers/      - HAL/CMSIS (wygenerowane przez STM32CubeMX)
 
 ## Autorzy
 
-- **Osoba 1** - projekt sprzętowy, implementacja bazowa (czujnik, LCD, pierwsza wersja CLI)
-- **Osoba 2** - rozszerzenia CLI, diagnostyka (watchdog, min/max, trend, logowanie), dokumentacja
+- **MP** - projekt sprzętowy, implementacja bazowa (czujnik, LCD, pierwsza wersja CLI)
+- **KO** - rozszerzenia CLI, diagnostyka (watchdog, min/max, trend, logowanie), dokumentacja
 
 ## Licencja
 
-Projekt edukacyjny / zaliczeniowy.
+Projekt zaliczeniowy z przedmiotu *Standardy Komunikacji Międzyukładowej w modułowych systemach wbudowanych*.
